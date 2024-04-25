@@ -9,14 +9,10 @@
 Hex Board game, also called Nash, is a two player strategy game where players attempt to connect two different sides of a hexagonal board. This board is 11x11 and it allows each player to place one piece at a time. In this version the user will play against an AI that calculates movements using "minimax algorithm". The first player who connects the two sides of the board wins the game. 
 
 ## API Reference
-- ### Disjoint Set Class
-All functions related to disjoint set that is used to check if any player won the game.
 - ### HexGame Class
 All functions related to the initial set of the game including the ones with the heuristic logic.
 - ### minimax
 Function that implement minimax algorithm to figure out the best AI move.
-- ### play
-Function that allows the player to make a move in the board that will be added to de disjoint sets.
 - ### draw_pieces
 Function to draw all the pieces in the UI board
 - ### main()
